@@ -1,4 +1,4 @@
-package firewall.model;
+package firewall.rule.model;
 
 public class Range {
 	private int min;

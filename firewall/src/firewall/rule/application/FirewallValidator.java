@@ -1,7 +1,7 @@
-package firewall.application;
+package firewall.rule.application;
 
-import firewall.Firewall;
-import firewall.impl.FirewallImpl;
+import firewall.rule.Firewall;
+import firewall.rule.impl.FirewallImpl;
 
 public class FirewallValidator {
 	

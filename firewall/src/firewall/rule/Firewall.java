@@ -1,4 +1,4 @@
-package firewall;
+package firewall.rule;
 
 public interface Firewall {
 

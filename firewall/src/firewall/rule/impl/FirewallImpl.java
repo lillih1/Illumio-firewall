@@ -1,4 +1,4 @@
-package firewall.impl;
+package firewall.rule.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import firewall.Firewall;
-import firewall.exceptions.FirewallException;
-import firewall.model.IPRange;
-import firewall.model.Range;
-import firewall.model.Rule;
+import firewall.rule.Firewall;
+import firewall.rule.exceptions.FirewallException;
+import firewall.rule.model.IPRange;
+import firewall.rule.model.Range;
+import firewall.rule.model.Rule;
 import firewall.utils.Constants;
 import firewall.utils.Utils;
 

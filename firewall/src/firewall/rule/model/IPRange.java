@@ -1,6 +1,6 @@
-package firewall.model;
+package firewall.rule.model;
 
-import firewall.exceptions.FirewallException;
+import firewall.rule.exceptions.FirewallException;
 import firewall.utils.Utils;
 
 public class IPRange {

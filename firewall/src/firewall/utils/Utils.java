@@ -1,6 +1,6 @@
 package firewall.utils;
 
-import firewall.exceptions.FirewallException;
+import firewall.rule.exceptions.FirewallException;
 
 public class Utils {
 	public static int[] parseIP(String ipAddress) throws FirewallException
