@@ -1,0 +1,9 @@
+# Ignore Gradle project-specific cache directory
+.DS_Store
+**/.DS_Store
+**/bin
+**/bin/*
+**/.project
+**/.classpath
+**/.settings
+
