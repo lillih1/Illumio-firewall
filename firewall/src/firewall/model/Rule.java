@@ -1,4 +1,4 @@
-package firewall.rule.model;
+package firewall.model;
 
 public class Rule {
 	private String direction;

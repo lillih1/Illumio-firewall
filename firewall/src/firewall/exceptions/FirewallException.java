@@ -1,4 +1,4 @@
-package firewall.rule.exceptions;
+package firewall.exceptions;
 
 public class FirewallException extends Exception {
 	

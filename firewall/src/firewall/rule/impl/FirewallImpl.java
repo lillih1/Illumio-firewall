@@ -8,13 +8,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import firewall.exceptions.FirewallException;
+import firewall.model.IPRange;
+import firewall.model.Range;
+import firewall.model.Rule;
 import firewall.rule.Firewall;
-import firewall.rule.exceptions.FirewallException;
-import firewall.rule.model.IPRange;
-import firewall.rule.model.Range;
-import firewall.rule.model.Rule;
-import firewall.rule.utils.Constants;
-import firewall.rule.utils.Utils;
+import firewall.utils.Constants;
+import firewall.utils.Utils;
 
 public class FirewallImpl implements Firewall 
 {

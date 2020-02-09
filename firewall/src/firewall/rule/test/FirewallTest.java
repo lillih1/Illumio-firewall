@@ -1,13 +1,13 @@
-package firewall.rule.application;
+package firewall.rule.test;
 
 import firewall.rule.Firewall;
 import firewall.rule.impl.FirewallImpl;
 
-public class FirewallValidator {
+public class FirewallTest {
 	
 	public static void main(String[] argc)
 	{
-		String filename = "src/fw.csv";
+		String filename = "src/firewall/rule/test/fw.csv";
 		
 		Firewall firewall = new FirewallImpl(filename);
 		
