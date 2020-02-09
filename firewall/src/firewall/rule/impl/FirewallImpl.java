@@ -13,8 +13,8 @@ import firewall.rule.exceptions.FirewallException;
 import firewall.rule.model.IPRange;
 import firewall.rule.model.Range;
 import firewall.rule.model.Rule;
-import firewall.utils.Constants;
-import firewall.utils.Utils;
+import firewall.rule.utils.Constants;
+import firewall.rule.utils.Utils;
 
 public class FirewallImpl implements Firewall 
 {

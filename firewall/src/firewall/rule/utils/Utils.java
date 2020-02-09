@@ -1,4 +1,4 @@
-package firewall.utils;
+package firewall.rule.utils;
 
 import firewall.rule.exceptions.FirewallException;
 

@@ -1,4 +1,4 @@
-package firewall.utils;
+package firewall.rule.utils;
 
 public class Constants {
 	public static final String INBOUND = "inbound";
