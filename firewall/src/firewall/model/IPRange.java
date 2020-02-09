@@ -1,7 +1,7 @@
 package firewall.model;
 
+import firewall.exceptions.FirewallException;
 import firewall.utils.Utils;
-import firwall.exceptions.FirewallException;
 
 public class IPRange {
 	private Range[] ranges;

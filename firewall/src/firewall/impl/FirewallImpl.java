@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import firewall.Firewall;
+import firewall.exceptions.FirewallException;
 import firewall.model.IPRange;
 import firewall.model.Range;
 import firewall.model.Rule;
 import firewall.utils.Constants;
 import firewall.utils.Utils;
-import firwall.exceptions.FirewallException;
 
 public class FirewallImpl implements Firewall 
 {
