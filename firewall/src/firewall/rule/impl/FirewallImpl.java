@@ -135,14 +135,14 @@ public class FirewallImpl implements Firewall
 	private Range readRange(String str, int lowerBound, int upperBound)
 	{
 		Range range = null;
-		
-		if (str.indexOf("-") >= 0)
+		try
 		{
-			String[] strs = str.split("-");
-			try
+			if (str.indexOf("-") >= 0)
 			{
+				String[] strs = str.split("-");
+
 				if (strs.length != 2) return null;
-				
+					
 				int r1 = Integer.parseInt(strs[0]);
 				int r2 = Integer.parseInt(strs[1]);
 				
@@ -153,20 +153,20 @@ public class FirewallImpl implements Firewall
 				
 				range = new Range(r1, r2);
 			}
-			catch (NumberFormatException e)
+			else
 			{
-				return null;
+				int p = Integer.parseInt(str);
+				if (p < lowerBound || p > upperBound)
+				{
+					return null;
+				}
+				
+				range = new Range(p, p);
 			}
 		}
-		else
+		catch (NumberFormatException e)
 		{
-			int p = Integer.parseInt(str);
-			if (p < lowerBound || p > upperBound)
-			{
-				return null;
-			}
-			
-			range = new Range(p, p);
+			return null;
 		}
 		
 		return range;
